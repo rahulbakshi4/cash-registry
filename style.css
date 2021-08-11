@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@500&display=swap');
+
+html {
+    box-sizing: border-box;
+  }
+body{
+    margin: 0 auto;
+    min-height: 100vh;
+    background: #3A6351;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+  color: #393232;
+  margin: 0;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #3A6351;
+
+}
+p{
+  padding: 1rem;
+}
+.container{
+    color: #000;
+    width: auto;
+    max-width: 50rem;
+    padding:1rem;
+    background-color: #F2EDD7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 4px solid #393232;
+    font-family: 'Montserrat', sans-serif;
+}
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 2px 2px #393232;
+  }
+  input {
+    padding: 0.5rem;
+    width: 60%;
+    border-radius: 0.5rem;
+  }
+  label {
+    font-size: 1rem;
+  }
+
+table {
+    width: 100%;
+    table-layout: auto;
+    margin-bottom: 2rem;
+  }
+  table,
+  td,
+  th {
+    border: 2px solid #393232;
+    border-collapse: collapse;
+    padding: 1rem;
+  }
+  caption {
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  footer a{
+    border: none;
+    font-family: 'Dancing Script', cursive;
+    padding: 0.25rem;
+    font-weight: 700;
+    
+   }
+   footer{
+     text-align: center;
+     padding: 1rem;
+   }
+   a{
+     text-decoration: none;
+     color:#3A6351;
+   }
+  
+@media screen and (max-width:600px){
+  table {
+  
+    table-layout: fixed;
+  }
+  table,
+  td,
+  th {
+    border: 2px solid #393232;
+    border-collapse: collapse;
+    padding: 0.25rem;
+    font-size: 0.5rem;
+  }
+  .container{
+    padding: 0.25rem;
+  }
+  caption {
+    font-size: 1rem;
+    margin: 1rem;
+  }
+}

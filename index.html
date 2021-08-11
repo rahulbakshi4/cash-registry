@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cash-Register</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cash Register</h1>
+        <p>
+          Check the balance to paid by entering bill amount and amount given
+        </p>
+      
+        <label for="billAmount">Enter the bill amount</label> <br>
+        <input  type="number" id="bill-amt"></input><br>
+        <label for="amountPaid">Enter the amount paid</label><br>
+        <input type="number" id="amt-paid"></input>
+      <div>
+        <button id="check-btn">Check</button>
+        <button id = "reset-btn">Reset</button>
+      </div>
+      <div>
+        <p id="message"></p>
+        <table>
+          <caption>Amount to be returned</caption>
+          <tbody>
+            <tr>
+                <th>Note Value </th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>50</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+            <tr>
+              <th>Number</th>
+              <td class="noOfnotes"></td>
+              <td class="noOfnotes"></td>
+              <td class="noOfnotes"></td>
+              <td class="noOfnotes"></td>
+              <td class="noOfnotes"></td>
+              <td class="noOfnotes"></td>
+              <td class="noOfnotes"></td>
+              <td class="noOfnotes"></td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+      <footer>
+        Made with &#10084; by <a href="https://rahulbakshi.xyz">Rahul Bakshi</a>
+    </footer
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
